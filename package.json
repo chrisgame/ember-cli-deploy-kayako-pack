@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-kayako-pack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An EmberCLI Deploy Plugin Pack for Kayako's Ember apps",
   "scripts": {},
   "repository": "https://github.com/kayako/ember-cli-deploy-kayako-pack",
