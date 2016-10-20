@@ -1,27 +1,42 @@
-# Ember-cli-deploy-kayako-pack
+# ember-cli-deploy-kayako-pack
 
-This README outlines the details of collaborating on this Ember addon.
+> An EmberCLI Deploy Plugin Pack for Kayako's Ember apps
+
+This plugin pack is prepared for internal use by Kayako and is open-sourced for
+educational purposes but will not be supported for shared community use.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-cli-deploy-kayako-pack`
-* `npm install`
-* `bower install`
+- Install ember-cli-deploy
 
-## Running
+```bash
+$ ember install ember-cli-deploy
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+- Install this plugin pack
 
-## Running Tests
+```bash
+$ ember install ember-cli-deploy-kayako-pack
+```
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+## What is an ember-cli-deploy plugin?
 
-## Building
+A "plugin pack" is a concept supported by ember-cli-deploy that allows a single
+addon to make multiple plugins available by adding a single direct depedency to
+your project. See the [Plugin Pack documentation][1] for more details.
 
-* `ember build`
+## What plugins are made available?
 
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+- [ember-cli-deploy/ember-cli-deploy-build](https://github.com/ember-cli-deploy/ember-cli-deploy-build)
+- [ember-cli-deploy/ember-cli-deploy-gzip](https://github.com/ember-cli-deploy/ember-cli-deploy-gzip)
+- [ember-cli-deploy/ember-cli-deploy-manifest](https://github.com/ember-cli-deploy/ember-cli-deploy-manifest)
+- [ember-cli-deploy/ember-cli-deploy-s3](https://github.com/ember-cli-deploy/ember-cli-deploy-s3)
+- [achambers/ember-cli-deploy-git-revision-data](https://github.com/achambers/ember-cli-deploy-git-revision-data)
+- [kayako/ember-cli-deploy-consul-config](https://github.com/kayako/ember-cli-deploy-consul-config)
+- [kayako/ember-cli-deploy-consul-kv-index](https://github.com/kayako/ember-cli-deploy-consul-kv-index)
+- [kayako/ember-cli-deploy-github-deployment-status](https://github.com/kayako/ember-cli-deploy-github-deployment-status)
+
+<p align="center"><sub>Made with :heart: by The Kayako Engineering
+Team</sub></p>
+
+[1]: http://ember-cli-deploy.com/docs/v1.0.0-beta.1/plugin-packs/ "Plugin Packs"
