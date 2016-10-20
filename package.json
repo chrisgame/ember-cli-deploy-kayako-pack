@@ -10,7 +10,8 @@
   "author": "The Kayako Engineering Team",
   "license": "MIT",
   "devDependencies": {
-    "ember-cli": "2.8.0"
+    "ember-cli": "2.8.0",
+    "ember-cli-release": "1.0.0-beta.2"
   },
   "keywords": [
     "ember-addon",
