@@ -19,13 +19,13 @@
   ],
   "dependencies": {
     "ember-cli-deploy-build": "0.1.1",
-    "ember-cli-deploy-consul-config": "0.2.0",
-    "ember-cli-deploy-consul-kv-index": "0.3.0",
+    "ember-cli-deploy-consul-config": "0.3.0",
+    "ember-cli-deploy-consul-kv-index": "0.4.0",
     "ember-cli-deploy-git-revision-data": "0.1.0",
-    "ember-cli-deploy-github-deployment-status": "0.2.0",
-    "ember-cli-deploy-gzip": "0.2.3",
+    "ember-cli-deploy-github-deployment-status": "0.3.0",
+    "ember-cli-deploy-gzip": "0.2.4",
     "ember-cli-deploy-manifest": "0.1.1",
-    "ember-cli-deploy-s3": "0.3.2"
+    "ember-cli-deploy-s3": "0.4.0"
   },
   "ember-addon": {}
 }
